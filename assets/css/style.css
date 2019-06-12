@@ -1,0 +1,129 @@
+.body {
+    background-image: url("assets/images/Background.png");
+    
+}
+
+.container {
+    margin: auto;
+    background-image: url("assets/images/Background.png");
+}
+
+
+.navbar {
+    background-color: brown;
+    margin: auto;
+    padding: 1em;
+    font-size: 30px;
+    
+    
+}
+
+
+.title {
+    background-color: bisque;
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+
+}
+
+.two {
+    background-color: aqua;
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+    
+}
+
+.three {
+    background-color: darkgoldenrod;
+    
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+    
+}
+
+.random {
+    float: left;
+
+}
+
+.points {
+    float: left;
+    padding: 1em;
+    margin: 1em;
+    background-color: aquamarine;
+    
+}
+
+.four {
+    clear: both;
+    background-color: cyan;
+    padding: 1em;
+    margin: 1em;
+    width: 80%;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
+
+.hero {
+    float: left;
+}
+
+
+.bottom {
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+    float: left;
+    width: 80%;
+    background-color: darkcyan;
+   
+    
+
+    
+
+}
+
+
+.score {
+    clear: both;
+    background-color: firebrick;
+    float: left;
+    margin: 1em;
+    padding: 1em;
+    max-width: 30%;
+    
+    
+}
+
+.random {
+    background-color: firebrick;
+    float: right;
+    margin: 1em;
+    padding: 1em;
+    max-width: 30%;
+   
+
+}
+
+
+.wins {
+    clear: both;
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+    float: left;
+}
+
+.loss {
+    clear: both;
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+    float: left;
+}
