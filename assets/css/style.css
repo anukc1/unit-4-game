@@ -1,26 +1,30 @@
-.body {
-    background-image: url("assets/images/Background.png");
-    
+body {
+    background-image: url("../images/Background.png");
 }
 
 .container {
     margin: auto;
-    background-image: url("assets/images/Background.png");
+    
+    background-size: 100% 100%;
 }
 
 
 .navbar {
-    background-color: brown;
+    
     margin: auto;
     padding: 1em;
     font-size: 30px;
+    border-style: inset;
+    border-width: 7px;
+    border-color: coral;
+   
     
     
 }
 
 
 .title {
-    background-color: bisque;
+   
     margin: 1em;
     padding: 1em;
     width: 80%;
@@ -28,7 +32,7 @@
 }
 
 .two {
-    background-color: aqua;
+    background-color: green;
     margin: 1em;
     padding: 1em;
     width: 80%;
@@ -82,10 +86,6 @@ img {
     float: left;
     width: 80%;
     background-color: darkcyan;
-   
-    
-
-    
 
 }
 

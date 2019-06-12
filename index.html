@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -33,12 +33,12 @@
 
             <div class="col-md-12">
                 <p>You will be given a random numbet at the start of the game.</p>
-                <p>There are four crystals beloe. By clicking on a crystal you will add a specific amount of points to
+                <p>There are four superheroes. By clicking on a superhero you will add a specific amount of points to
                     your total score.</p>
                 <p>You win the game by matching your total score to random number, you lose the game if your total score
                     goes above the random number.</p>
-                <p>The balue of each crystal is hidden from you until you click on it.</p>
-                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                <p>The value of each superhero is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each superhero.</p>
             </div>
         </div>
 
@@ -46,7 +46,7 @@
         <div class="row three">
 
             <div class="col-md-6 random" id="akasmat">
-                Here's your random number.
+
             </div>
 
             <div class="col-md-6 points">
@@ -56,7 +56,7 @@
 
                 </div>
 
-                <div class="col-md-6 loss id="haar">
+                <div class="col-md-6 loss id=" haar">
                     loss
 
                 </div>
@@ -71,21 +71,42 @@
             <div class="col-md-6 hero" id="images">
 
                 <div class="col-md-3  hero" id="cptAmerica">
-                    <img src="assets/images/CptAmerica.png">
+                    <button id="btn1">
+
+                        <img src="assets/images/CptAmerica.png">
+                    </button>
+
                 </div>
 
 
                 <div class="col-md-3  hero" id="hulk">
-                    <img src="assets/images/Hulk.png">
+
+
+                    <button id="btn2">
+                        <img src="assets/images/Hulk.png">
+
+                    </button>
+
+
                 </div>
 
 
                 <div class="col-md-3 hero" id="ironMan">
-                    <img src="assets/images/Ironman.png">
+
+                    <button id="btn3">
+
+                            <img src="assets/images/Ironman.png">
+                    </button>
+
+                        
+                   
                 </div>
 
                 <div class="col-md-3 hero" id="thor">
-                    <img src="assets/images/Thor.png">
+                   
+                    <button id="btn4">
+                            <img src="assets/images/Thor.png">
+                    </button>
                 </div>
 
             </div>
@@ -109,6 +130,9 @@
 
 
     </div>
+
+
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 
