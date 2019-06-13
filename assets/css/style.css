@@ -2,12 +2,6 @@ body {
     background-image: url("../images/Background.png");
 }
 
-.container {
-    margin: auto;
-    
-    background-size: 100% 100%;
-}
-
 
 .navbar {
     
@@ -24,10 +18,11 @@ body {
 
 
 .title {
-   
+   text-align: center;
     margin: 1em;
     padding: 1em;
-    width: 80%;
+   
+    
 
 }
 
@@ -35,7 +30,8 @@ body {
     background-color: green;
     margin: 1em;
     padding: 1em;
-    width: 80%;
+   
+    text-align: center;
     
 }
 
@@ -44,7 +40,7 @@ body {
     
     margin: 1em;
     padding: 1em;
-    width: 80%;
+    
     
 }
 
@@ -66,7 +62,7 @@ body {
     background-color: cyan;
     padding: 1em;
     margin: 1em;
-    width: 80%;
+    
 }
 
 img {
@@ -84,22 +80,12 @@ img {
     border-width: 7px;
     border-color: coral;
     float: left;
-    width: 80%;
-    background-color: darkcyan;
-
-}
-
-
-.score {
-    clear: both;
+   
     background-color: firebrick;
-    float: left;
-    margin: 1em;
-    padding: 1em;
-    max-width: 30%;
-    
-    
+    font-size: 50px;
 }
+
+
 
 .random {
     background-color: firebrick;
@@ -107,6 +93,8 @@ img {
     margin: 1em;
     padding: 1em;
     max-width: 30%;
+    font-size: 25px;
+
    
 
 }
